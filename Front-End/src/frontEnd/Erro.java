@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *  Esta Classe foi criada para concentrar em uma só classe o tratamamento dos 
+ * erros do programa.
  */
 package frontEnd;
 
@@ -11,7 +10,12 @@ package frontEnd;
  */
 public class Erro {
     
-    public void informarErro(String mensagemDeErro)
+    public Erro ()
+    {
+        
+    }
+    
+    public static void informarErro(String mensagemDeErro)
     {
         System.err.println();
         System.err.println(mensagemDeErro);
