@@ -9,13 +9,14 @@ import javax.swing.JFrame;
 /**
  * @author eduardo.cardoso
  */
-public class Moldura 
+public class Moldura extends JFrame
 {
-    JFrame jf;
+    //Variaveis
+    JFrame jf = new JFrame();
     
     public void Moldura()
     {
-        jf = new JFrame();
+        
     }
     
     public void preencherMoldura(String titulo,int x,int y)//Função: realizar o 

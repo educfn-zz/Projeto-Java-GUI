@@ -3,16 +3,14 @@ import javax.swing.JFrame;
 
 /**
  * @author eduardo.cardoso
- * @author thiago
+ * @author Thiago Henirque Santos
  */
 
-//***JPANEL***
-//***      ***
-//***      ***
+//Funcao das variáveis:
+//quadro -> JFrame
+//meuPainel -> JPanel
 
 public class Janela extends Erro{
-    //Variaveis de auxilio:
-    Moldura mol;//variavel para auxiliar com a manipula do JFrame.
     
     public Janela()
     {
@@ -26,7 +24,7 @@ public class Janela extends Erro{
        quadro.preencherMoldura("",0,0);
         
         Painel meuPainel = new Painel();
-        //janela.add(meuPainel);
-        
+        quadro.add(meuPainel);
+        meuPainel.g.drawRect(150, 150, 100, 100);
     }
 }
